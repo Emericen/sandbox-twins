@@ -5,7 +5,7 @@ folder whose deliverables were written to `output/`. The verifiers live in a tas
 NEXT TO this folder (e.g. `../<name>-task.json`) - locate it. Grade the work.
 
 ```bash
-[ -d twin-pipeline ] || git clone https://github.com/Emericen/grok-hackathon twin-pipeline
+[ -d twin-pipeline ] || git clone https://github.com/Emericen/sandbox-twins twin-pipeline
 python3 twin-pipeline/scripts/grader.py . --in-place --task ../<name>-task.json
 ```
 

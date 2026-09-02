@@ -5,7 +5,7 @@ numbers, only the identities changed.** Amounts stay frozen so every trap transf
 exactly (production re-derives amounts under constraints; this is the fast dial).
 
 ```bash
-[ -d twin-pipeline ] || git clone https://github.com/Emericen/grok-hackathon twin-pipeline
+[ -d twin-pipeline ] || git clone https://github.com/Emericen/sandbox-twins twin-pipeline
 ```
 
 ## 1. Map the identities

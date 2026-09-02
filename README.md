@@ -1,4 +1,4 @@
-# Redline
+# Sandbox Twins
 
 Turn an expert-corrected AI failure into an anonymized, verifier-graded training world.
 
@@ -6,8 +6,8 @@ Turn an expert-corrected AI failure into an anonymized, verifier-graded training
 
 ```bash
 curl -fsSL https://x.ai/cli/install.sh | bash     # Grok Build
-git clone https://github.com/Emericen/grok-hackathon
-echo 'XAI_API_KEY=xai-...' > grok-hackathon/.env  # auto-loaded by the scripts
+git clone https://github.com/Emericen/sandbox-twins
+echo 'XAI_API_KEY=xai-...' > sandbox-twins/.env  # auto-loaded by the scripts
 ```
 
 ## The journey
@@ -23,7 +23,7 @@ Do the work; correct the agent like you'd correct an associate. That conversatio
 **2. Twin it.** In the same session:
 
 ```
-fetch and follow https://raw.githubusercontent.com/Emericen/grok-hackathon/master/TWIN.md
+fetch and follow https://raw.githubusercontent.com/Emericen/sandbox-twins/master/TWIN.md
 ```
 
 Grok builds `../<newco>-intake/` next to the case, same story and same traps with every identity replaced, plus a `<newco>-task.json` beside it holding the task and verifiers. It must pass the leak scan (`clean`) before handing it over.
@@ -31,7 +31,7 @@ Grok builds `../<newco>-intake/` next to the case, same story and same traps wit
 **3. Run and grade the twin.** New session inside the twin folder, hand it the task from the task file, let it work one shot, then:
 
 ```
-fetch and follow https://raw.githubusercontent.com/Emericen/grok-hackathon/master/GRADE.md
+fetch and follow https://raw.githubusercontent.com/Emericen/sandbox-twins/master/GRADE.md
 ```
 
 Grok runs the grader on its own work. The judge is also Grok - but it goes through the script, so it can't improvise the verdict.
